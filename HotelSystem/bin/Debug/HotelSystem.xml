@@ -1,0 +1,127 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+HotelSystem
+</name>
+</assembly>
+<members>
+<member name="T:HotelSystem.DSHotel.ClientsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HotelSystem.DSHotel.HotelRoomDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HotelSystem.DSHotel.NationalityDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HotelSystem.DSHotel.ReservationTypeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HotelSystem.DSHotel.RoomReservationsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HotelSystem.DSHotel.ClientsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HotelSystem.DSHotel.HotelRoomRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HotelSystem.DSHotel.NationalityRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HotelSystem.DSHotel.ReservationTypeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HotelSystem.DSHotel.RoomReservationsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HotelSystem.DSHotel.ClientsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HotelSystem.DSHotel.HotelRoomRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HotelSystem.DSHotel.NationalityRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HotelSystem.DSHotel.ReservationTypeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HotelSystem.DSHotel.RoomReservationsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HotelSystem.DSHotel">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HotelSystem.DSHotelTableAdapters.ClientsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HotelSystem.DSHotelTableAdapters.HotelRoomTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HotelSystem.DSHotelTableAdapters.NationalityTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HotelSystem.DSHotelTableAdapters.ReservationTypeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HotelSystem.DSHotelTableAdapters.RoomReservationsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:HotelSystem.DSHotelTableAdapters.TableAdapterManager.UpdateUpdatedRows(HotelSystem.DSHotel,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:HotelSystem.DSHotelTableAdapters.TableAdapterManager.UpdateInsertedRows(HotelSystem.DSHotel,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:HotelSystem.DSHotelTableAdapters.TableAdapterManager.UpdateDeletedRows(HotelSystem.DSHotel,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:HotelSystem.DSHotelTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:HotelSystem.DSHotelTableAdapters.TableAdapterManager.UpdateAll(HotelSystem.DSHotel)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:HotelSystem.DSHotelTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:HotelSystem.DSHotelTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:HotelSystem.DSHotelTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
